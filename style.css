@@ -1,0 +1,133 @@
+body, html {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+
+}
+
+.Perks,
+.Top,
+.Kung,
+.Conjuring,
+.Grown {
+    color: darkkhaki;
+    font-size: 20px;
+    font-style: oblique;
+    padding-bottom: 400px;
+    padding-top: 300px;
+    padding-left: 150px;
+    margin: auto;
+    border: 1px solid #ccc;
+    overflow-y: auto;
+    position: relative;
+
+}
+
+img {
+    margin: 0 auto; 
+    width: auto;
+    height: 700px;
+}
+
+header{
+    background-color: #c7b198;
+    border: solid;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding: 0 5%;
+}
+
+header nav {
+    display: flex;
+    gap: 30px;
+}
+
+header nav a {
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 8px 16px;
+    border-radius: 99px;
+
+}
+
+header nav a.onto {
+        background: gray
+}
+
+header nav a:hover {
+    background: gray;
+}
+
+header nav a:hover > a:not(:hover) {
+    background: none;
+}
+
+#theme-toggle{
+    background-color: black;
+    color: aliceblue;
+    background-color: #333;
+    color: #fff
+
+}
+.dark-theme{
+    background-color: #000000;
+    color: #fff;
+}
+#search-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #c7b198;
+    border-bottom: 1px solid #ccc;
+}
+
+#search-input {
+    font-size: 17px;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    width: 300px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+#search-input:focus {
+    border-color: #888;
+}
+
+#search-button {
+    font-size: 17px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 25px;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s;
+    margin-left: 10px;
+}
+  
+#search-button:hover {
+    background-color: #555;
+}
+
+#movie-results {
+    color: darkkhaki;
+    font-size: 30px;
+    font-style: oblique;
+    padding-bottom: 400px;
+    padding-top: 300px;
+    padding-left: 150px;
+    margin: auto;
+    border: 1px solid #ccc;
+    overflow-y: auto;
+    position: relative;
+
+  
+}
+
+
